@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000010000000001AA /* gURLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000020000000001AA /* gURLApp.swift */; };
+		B100002600000000020AA /* ResponseDiffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002700000000020AA /* ResponseDiffView.swift */; };
+		B100002800000000021AA /* RequestTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002900000000021AA /* RequestTab.swift */; };
+		B100002A00000000022AA /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002B00000000022AA /* MainContentView.swift */; };
+		B10000030000000002AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000040000000002AA /* ContentView.swift */; };
+		B10000050000000003AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10000060000000003AA /* Assets.xcassets */; };
+		B10000070000000004AA /* CurlOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000080000000004AA /* CurlOptions.swift */; };
+		B10000090000000005AA /* CurlService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000A0000000005AA /* CurlService.swift */; };
+		B1000000B0000000006AA /* RequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000C0000000006AA /* RequestViewModel.swift */; };
+		B1000000D0000000007AA /* BasicRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000E0000000007AA /* BasicRequestView.swift */; };
+		B1000000F0000000008AA /* HeadersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000100000000008AA /* HeadersView.swift */; };
+		B10000110000000009AA /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000120000000009AA /* BodyView.swift */; };
+		B100001300000000010AA /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100001400000000010AA /* AuthenticationView.swift */; };
+		B100001500000000011AA /* SSLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100001600000000011AA /* SSLView.swift */; };
+		B100001700000000012AA /* ProxyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100001800000000012AA /* ProxyView.swift */; };
+		B100001900000000013AA /* AdvancedOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100001A00000000013AA /* AdvancedOptionsView.swift */; };
+		B100001B00000000014AA /* OutputOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100001C00000000014AA /* OutputOptionsView.swift */; };
+		B100001D00000000015AA /* ResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100001E00000000015AA /* ResponseView.swift */; };
+		B100001F00000000016AA /* CommandPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002000000000016AA /* CommandPreviewView.swift */; };
+		B100002100000000017AA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002200000000017AA /* HistoryView.swift */; };
+		B100002300000000018AA /* CookiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002400000000018AA /* CookiesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B100000000000000000AA /* gURL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gURL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000020000000001AA /* gURLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gURLApp.swift; sourceTree = "<group>"; };
+		B10000040000000002AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10000060000000003AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000080000000004AA /* CurlOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlOptions.swift; sourceTree = "<group>"; };
+		B1000000A0000000005AA /* CurlService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlService.swift; sourceTree = "<group>"; };
+		B1000000C0000000006AA /* RequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewModel.swift; sourceTree = "<group>"; };
+		B1000000E0000000007AA /* BasicRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicRequestView.swift; sourceTree = "<group>"; };
+		B10000100000000008AA /* HeadersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadersView.swift; sourceTree = "<group>"; };
+		B10000120000000009AA /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		B100001400000000010AA /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		B100001600000000011AA /* SSLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLView.swift; sourceTree = "<group>"; };
+		B100001800000000012AA /* ProxyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyView.swift; sourceTree = "<group>"; };
+		B100001A00000000013AA /* AdvancedOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedOptionsView.swift; sourceTree = "<group>"; };
+		B100001C00000000014AA /* OutputOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputOptionsView.swift; sourceTree = "<group>"; };
+		B100001E00000000015AA /* ResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseView.swift; sourceTree = "<group>"; };
+		B100002000000000016AA /* CommandPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPreviewView.swift; sourceTree = "<group>"; };
+		B100002200000000017AA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B100002400000000018AA /* CookiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesView.swift; sourceTree = "<group>"; };
+		B100002500000000019AA /* gURL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gURL.entitlements; sourceTree = "<group>"; };
+		B100002700000000020AA /* ResponseDiffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDiffView.swift; sourceTree = "<group>"; };
+		B100002900000000021AA /* RequestTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTab.swift; sourceTree = "<group>"; };
+		B100002B00000000022AA /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1FFFFFFFFFFFFFF01AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1FFFFFFFFFFFFFF02AA = {
+			isa = PBXGroup;
+			children = (
+				B1FFFFFFFFFFFFFF04AA /* gURL */,
+				B1FFFFFFFFFFFFFF03AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FFFFFFFFFFFFFF03AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B100000000000000000AA /* gURL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FFFFFFFFFFFFFF04AA /* gURL */ = {
+			isa = PBXGroup;
+			children = (
+				B10000020000000001AA /* gURLApp.swift */,
+				B10000040000000002AA /* ContentView.swift */,
+				B1FFFFFFFFFFFFFF05AA /* Models */,
+				B1FFFFFFFFFFFFFF06AA /* Services */,
+				B1FFFFFFFFFFFFFF07AA /* ViewModels */,
+				B1FFFFFFFFFFFFFF08AA /* Views */,
+				B10000060000000003AA /* Assets.xcassets */,
+				B100002500000000019AA /* gURL.entitlements */,
+			);
+			path = gURL;
+			sourceTree = "<group>";
+		};
+		B1FFFFFFFFFFFFFF05AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10000080000000004AA /* CurlOptions.swift */,
+				B100002900000000021AA /* RequestTab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1FFFFFFFFFFFFFF06AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000A0000000005AA /* CurlService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B1FFFFFFFFFFFFFF07AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000C0000000006AA /* RequestViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B1FFFFFFFFFFFFFF08AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000E0000000007AA /* BasicRequestView.swift */,
+				B10000100000000008AA /* HeadersView.swift */,
+				B10000120000000009AA /* BodyView.swift */,
+				B100001400000000010AA /* AuthenticationView.swift */,
+				B100001600000000011AA /* SSLView.swift */,
+				B100001800000000012AA /* ProxyView.swift */,
+				B100001A00000000013AA /* AdvancedOptionsView.swift */,
+				B100001C00000000014AA /* OutputOptionsView.swift */,
+				B100001E00000000015AA /* ResponseView.swift */,
+				B100002000000000016AA /* CommandPreviewView.swift */,
+				B100002200000000017AA /* HistoryView.swift */,
+				B100002400000000018AA /* CookiesView.swift */,
+				B100002700000000020AA /* ResponseDiffView.swift */,
+				B100002B00000000022AA /* MainContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1FFFFFFFFFFFFFF09AA /* gURL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FFFFFFFFFFFFFF0EAA /* Build configuration list for PBXNativeTarget "gURL" */;
+			buildPhases = (
+				B1FFFFFFFFFFFFFF0AAA /* Sources */,
+				B1FFFFFFFFFFFFFF01AA /* Frameworks */,
+				B1FFFFFFFFFFFFFF0BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gURL;
+			productName = gURL;
+			productReference = B100000000000000000AA /* gURL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FFFFFFFFFFFFFF0CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B1FFFFFFFFFFFFFF09AA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B1FFFFFFFFFFFFFF0DAA /* Build configuration list for PBXProject "gURL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1FFFFFFFFFFFFFF02AA;
+			productRefGroup = B1FFFFFFFFFFFFFF03AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FFFFFFFFFFFFFF09AA /* gURL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1FFFFFFFFFFFFFF0BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000050000000003AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FFFFFFFFFFFFFF0AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000010000000001AA /* gURLApp.swift in Sources */,
+				B10000030000000002AA /* ContentView.swift in Sources */,
+				B10000070000000004AA /* CurlOptions.swift in Sources */,
+				B10000090000000005AA /* CurlService.swift in Sources */,
+				B1000000B0000000006AA /* RequestViewModel.swift in Sources */,
+				B1000000D0000000007AA /* BasicRequestView.swift in Sources */,
+				B1000000F0000000008AA /* HeadersView.swift in Sources */,
+				B10000110000000009AA /* BodyView.swift in Sources */,
+				B100001300000000010AA /* AuthenticationView.swift in Sources */,
+				B100001500000000011AA /* SSLView.swift in Sources */,
+				B100001700000000012AA /* ProxyView.swift in Sources */,
+				B100001900000000013AA /* AdvancedOptionsView.swift in Sources */,
+				B100001B00000000014AA /* OutputOptionsView.swift in Sources */,
+				B100001D00000000015AA /* ResponseView.swift in Sources */,
+				B100001F00000000016AA /* CommandPreviewView.swift in Sources */,
+				B100002100000000017AA /* HistoryView.swift in Sources */,
+				B100002300000000018AA /* CookiesView.swift in Sources */,
+				B100002600000000020AA /* ResponseDiffView.swift in Sources */,
+				B100002800000000021AA /* RequestTab.swift in Sources */,
+				B100002A00000000022AA /* MainContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1FFFFFFFFFFFFFF0FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1FFFFFFFFFFFFFF10AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B1FFFFFFFFFFFFFF11AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gURL/gURL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gurl.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B1FFFFFFFFFFFFFF12AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gURL/gURL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gurl.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1FFFFFFFFFFFFFF0DAA /* Build configuration list for PBXProject "gURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FFFFFFFFFFFFFF0FAA /* Debug */,
+				B1FFFFFFFFFFFFFF10AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FFFFFFFFFFFFFF0EAA /* Build configuration list for PBXNativeTarget "gURL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FFFFFFFFFFFFFF11AA /* Debug */,
+				B1FFFFFFFFFFFFFF12AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FFFFFFFFFFFFFF0CAA /* Project object */;
+}

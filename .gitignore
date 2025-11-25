@@ -1,0 +1,45 @@
+# Xcode
+build/
+DerivedData/
+*.xcarchive
+
+# User-specific Xcode data
+xcuserdata/
+*.xcuserdatad/
+
+# Workspace settings
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Build outputs
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods (if used later)
+Pods/
+Podfile.lock
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Carthage (if used later)
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane (if used later)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+.inject.resolved
